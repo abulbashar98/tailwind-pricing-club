@@ -5,7 +5,7 @@ const Link = (props) => {
     const { name, link } = props.route;
 
     return (
-        <li>
+        <li className='mr-20'>
             <a href={link}>{name}</a>
         </li>
     );
